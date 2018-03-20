@@ -1,0 +1,16 @@
+{
+  "name": "dns-split-relay",
+  "version": "0.1.0",
+  "description": "Simple Relay written in Node for asyncronous split brain DNS",
+  "main": "dns-split-relay.js",
+  "author": "Joey Kwasniewski <kwasniewski@gmail.com>",
+  "license": "MIT",
+  "repository": "kwasniewski/dns-split-relay",
+  "scripts": {
+    "start": "node dns-split-relay.js"
+  },
+  "dependencies": {
+    "debug": "^2.6.0",
+    "native-dns-packet": "~0.1.1"
+  }
+}
